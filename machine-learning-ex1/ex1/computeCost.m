@@ -17,9 +17,9 @@ h = X * theta ;
 
 error = h - y ;
 
-error_sqr = error.^2
+error_sqr = error.^2;
 
-J = (1/(2*m))* sum([error_sqr])
+J = (1/(2*m))* sum([error_sqr]);
 % =========================================================================
 
 end
